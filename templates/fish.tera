@@ -1,0 +1,14 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+  filename: "themes/evergarden-fzf-{{ flavor.identifier }}.fish"
+  hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
+---
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:{{base.hex}},bg:{{base.hex}},spinner:{{snow.hex}},hl:{{snow.hex}} \
+--color=fg:{{text.hex}},header:{{snow.hex}},info:{{subtext0.hex}},pointer:{{orange.hex}} \
+--color=marker:{{yellow.hex}},fg+:{{text.hex}},prompt:{{pink.hex}},hl+:{{snow.hex}} \
+--color=selected-bg:{{surface1.hex}} \
+--color=border:{{surface0.hex}},label:{{text.hex}}"
