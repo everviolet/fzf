@@ -1,0 +1,15 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - flavor
+  filename: "themes/evergarden-fzf-{{ flavor.identifier }}.ps1"
+  hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
+---
+$ENV:FZF_DEFAULT_OPTS=@"
+--color=bg+:{{base.hex}},bg:{{base.hex}},spinner:{{snow.hex}},hl:{{snow.hex}}
+--color=fg:{{text.hex}},header:{{snow.hex}},info:{{subtext0.hex}},pointer:{{orange.hex}}
+--color=marker:{{yellow.hex}},fg+:{{text.hex}},prompt:{{pink.hex}},hl+:{{snow.hex}}
+--color=selected-bg:{{surface1.hex}}
+--color=border:{{surface0.hex}},label:{{text.hex}}
+"@
