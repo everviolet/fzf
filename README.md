@@ -24,11 +24,12 @@
 <img src="https://raw.githubusercontent.com/everviolet/fzf/main/assets/previews/fall.webp"/>
 </details>
 <details>
-<summary>Summer</summary>
-<img src="https://raw.githubusercontent.com/everviolet/fzf/main/assets/previews/summer.webp"/>
-</details>
 <summary>Spring</summary>
 <img src="https://raw.githubusercontent.com/everviolet/fzf/main/assets/previews/spring.webp"/>
+</details>
+<details>
+<summary>Summer</summary>
+<img src="https://raw.githubusercontent.com/everviolet/fzf/main/assets/previews/summer.webp"/>
 </details>
 
 ### Usage
