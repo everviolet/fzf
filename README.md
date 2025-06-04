@@ -1,6 +1,6 @@
 <h3 align="center">
 	<img src="https://github.com/everviolet/.github/raw/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
-	Evergarden for <a href="https://github.com/everviolet/fzf">App</a>
+	Evergarden for <a href="https://github.com/junegunn/fzf">fzf</a>
 </h3>
 
 <p align="center">
